@@ -1,4 +1,5 @@
 import numpy as np
+import time
 def run_de(strategy, func_name, F, CR, seed=0, D=10, NP=30, time_limit=10):
     np.random.seed(seed)
 
